@@ -4,6 +4,11 @@
 let numericScore = Number(score);
 console.log(numericScore); // Output: 100
 
+let score2 = "100abc";
+// Convert string to number
+let numericScore2 = Number(score2);
+console.log(numericScore2); // Output: NaN but typeof(numericScore2) will be number
+
 // Convert number to string
 let stringScore = String(numericScore);
 console.log(stringScore); // Output: "100"
@@ -42,3 +47,5 @@ console.log(stringFromArray); // Output: "Hello, World!"
 let obj = { name: "John", age: 30 };
 let stringFromObject = JSON.stringify(obj);
 console.log(stringFromObject); // Output: '{"name":"John","age":30}'
+
+
